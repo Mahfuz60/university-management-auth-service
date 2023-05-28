@@ -1,0 +1,3 @@
+interface IProject {
+  name: string;
+}
