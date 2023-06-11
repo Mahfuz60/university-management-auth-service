@@ -79,6 +79,36 @@
             "date": 1686369808588,
             "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-10-06-10-error.log",
             "hash": "970f3a2df6db36fe61789802110999849e8b619c7932b7271fce634a96937b3f"
+        },
+        {
+            "date": 1686470260911,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-11-06-13-error.log",
+            "hash": "1b72ea3c222c04a1e6cc3d37df9130ad160461862208edda932924a3e5117a7a"
+        },
+        {
+            "date": 1686470620793,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-11-06-14-error.log",
+            "hash": "fbe61f8475780b354a88ff6e20547d3c71674bee02a19d380a7c8ae548a3d49a"
+        },
+        {
+            "date": 1686474276398,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-11-06-15-error.log",
+            "hash": "4b2e18af279385f5fd241a4b2a24db54078da0cad9aa7e89890f77612fba5a0d"
+        },
+        {
+            "date": 1686479307418,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-11-06-16-error.log",
+            "hash": "c0a9b217bdbb5c09ee9616429f47c6549fe73c39b6b7b4a7d561005d73783149"
+        },
+        {
+            "date": 1686504970130,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-11-06-23-error.log",
+            "hash": "e366defcaf82b51bde290efbf3b1fce72bebfdb1b816d5af8d913040baa2eb24"
+        },
+        {
+            "date": 1686506403133,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-12-06-00-error.log",
+            "hash": "634a2a2561c2d7105859f7abcb2eaa399ce65cdfaaceeac2a808a1224ef43a18"
         }
     ],
     "hashType": "sha256"
