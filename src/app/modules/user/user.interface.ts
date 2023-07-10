@@ -9,6 +9,7 @@ import { IStudent } from '../student/student.interface';
 // }
 
 export type IUser = {
+  [x: string]: Types.ObjectId;
   id: string;
   role: string;
   password: string;

@@ -119,6 +119,26 @@
             "date": 1688896805476,
             "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\successes\\University2023-09-07-16-success.log",
             "hash": "5a89714ffdc768fe4a4a92282fb63a1f50be8fae58cc279e76456e47212bc49c"
+        },
+        {
+            "date": 1689002655423,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\successes\\University2023-10-07-21-success.log",
+            "hash": "63c253757ead8b6c63bc159b39eb746b62ae4b7ef08082478f01f4a8b5bb566d"
+        },
+        {
+            "date": 1689005478479,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\successes\\University2023-10-07-22-success.log",
+            "hash": "e670c8e3b36340e61e45ea22181202b3de0591bb95a0703d8692d1b5d900334b"
+        },
+        {
+            "date": 1689010467020,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\successes\\University2023-10-07-23-success.log",
+            "hash": "6d7ddfd5e3628dea9b1323ed2b7d0dfdf3bb75d4410928c9e3084350ed7ac76a"
+        },
+        {
+            "date": 1689012229171,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\successes\\University2023-11-07-00-success.log",
+            "hash": "a2b8e572cd7524b36f0980ead4c1cef80cccea31f3c347bbcf90d5968b89120c"
         }
     ],
     "hashType": "sha256"
