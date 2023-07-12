@@ -1,4 +1,5 @@
-import { Model } from 'mongoose';
+import { Model, Types } from 'mongoose';
+import { IStudent } from '../student/student.interface';
 
 // 1. Create an interface
 // export interface IUser {
@@ -8,9 +9,13 @@ import { Model } from 'mongoose';
 // }
 
 export type IUser = {
+  [x: string]: Types.ObjectId;
   id: string;
   role: string;
   password: string;
+  student?: Types.ObjectId | IStudent;
+  // faculty?:Types.ObjectId |IFaculty;
+  // admin?:Types.ObjectId |IAdmin;
 };
 
 // Create a new Model type that knows about IUserMethods...[statics procedure]
