@@ -139,6 +139,11 @@
             "date": 1689012229181,
             "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-11-07-00-error.log",
             "hash": "183a1fad703627bd7731f6cb88e0b617f610257ef51459baee78208d38edbb2d"
+        },
+        {
+            "date": 1689178256688,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-12-07-22-error.log",
+            "hash": "b8d59ad3c9d4ae08b1cdcd145698acd162f7170685fd815ba46733bb8397bcb9"
         }
     ],
     "hashType": "sha256"
