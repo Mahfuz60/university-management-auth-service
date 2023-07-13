@@ -6,21 +6,6 @@
     "auditLog": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\.f282cea8cb7036adbadba57af689cb799aaf0516-audit.json",
     "files": [
         {
-            "date": 1688014516506,
-            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-29-06-10-error.log",
-            "hash": "f35f5a705ac7136a706e4cd7284fadae80f8ba1b6a03513eb1568170deda14dd"
-        },
-        {
-            "date": 1688036987359,
-            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-29-06-17-error.log",
-            "hash": "008abb3e45ba190b5854d0c6f1617f95979696882c39365b33e4a2e8526a14c8"
-        },
-        {
-            "date": 1688043160322,
-            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-29-06-18-error.log",
-            "hash": "ee805de78f9db92773f3b5d9a0b2118c4366f4cc6ea416ccc697d193eef6283e"
-        },
-        {
             "date": 1688184814061,
             "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-01-07-10-error.log",
             "hash": "438598f9381968b534abdfe1a6b5491961db512d1925fba19639c6716a393082"
@@ -144,6 +129,11 @@
             "date": 1689178256688,
             "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-12-07-22-error.log",
             "hash": "b8d59ad3c9d4ae08b1cdcd145698acd162f7170685fd815ba46733bb8397bcb9"
+        },
+        {
+            "date": 1689264463617,
+            "name": "E:\\Programming Hero Next Level 2.0\\Project\\university-management-auth-service\\logs\\winston\\errors\\University2023-13-07-22-error.log",
+            "hash": "42c2d81fecf304437a147df6baf3aee17e5341b7ee48632df2872f5af613b7b9"
         }
     ],
     "hashType": "sha256"
