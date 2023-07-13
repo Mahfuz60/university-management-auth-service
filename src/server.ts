@@ -19,7 +19,7 @@ async function mainServer() {
     logger.info(`🧧 Database Connected Successfully!`);
 
     server = app.listen(config.port, () => {
-      logger.info(`Application listening on port ${config.port}`);
+      errorLogger.error(`Application listening on port ${config.port}`);
     });
   } catch (err) {
     errorLogger.error(`Failed to Connected database`, err);
@@ -28,7 +28,7 @@ async function mainServer() {
   process.on('unhandledRejection', error => {
     if (server) {
       server.close(() => {
-        errorLogger.error(error);
+        console.log(error);
         process.exit(1);
       });
     } else {
