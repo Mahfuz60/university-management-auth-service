@@ -1,5 +1,7 @@
 import { Model, Types } from 'mongoose';
 import { IStudent } from '../student/student.interface';
+import { IFaculty } from '../faculty/faculty.interface';
+import { IAdmin } from '../admin/admin.interface';
 
 // 1. Create an interface
 // export interface IUser {
@@ -9,15 +11,38 @@ import { IStudent } from '../student/student.interface';
 // }
 
 export type IUser = {
-  [x: string]: Types.ObjectId;
   id: string;
   role: string;
   password: string;
+  needsPasswordChange: true | false;
   student?: Types.ObjectId | IStudent;
-  // faculty?:Types.ObjectId |IFaculty;
-  // admin?:Types.ObjectId |IAdmin;
+  faculty?: Types.ObjectId | IFaculty;
+  admin?: Types.ObjectId | IAdmin;
 };
 
-// Create a new Model type that knows about IUserMethods...[statics procedure]
-// export type UserModel = Model<IUser, object>
-export type UserModel = Model<IUser, Record<string, unknown>>;
+//User Authentication types with static method
+export type UserModel = {
+  isUserExist(
+    id: string
+  ): Promise<Pick<IUser, 'id' | 'password' | 'role' | 'needsPasswordChange'>>;
+
+  isPasswordMatched(
+    givenPassword: string,
+    savePassword: string
+  ): Promise<boolean>;
+} & Model<IUser>;
+
+
+
+
+//User Authentication types with instance method
+
+// export type IUserMethods = {
+//   isUserExist(id: string): Promise<Partial<IUser> | null>;
+//   isPasswordMatched(
+//     givenPassword: string,
+//     savePassword: string
+//   ): Promise<boolean>;
+// };
+
+// export type UserModel = Model<IUser, Record<string, unknown>, IUserMethods>;

@@ -6,6 +6,7 @@ import { StudentController } from './student.controller';
 const router = express.Router();
 
 router.get('/:id', StudentController.getSingleStudent);
+router.get('/', StudentController.getAllStudents);
 
 router.patch(
   '/:id',
@@ -13,7 +14,5 @@ router.patch(
   StudentController.updateStudent
 );
 router.delete('/:id', StudentController.deleteStudent);
-
-router.get('/', StudentController.getAllStudents);
 
 export const StudentRoutes = router;

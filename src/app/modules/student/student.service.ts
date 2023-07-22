@@ -136,7 +136,7 @@ const updateStudent = async (
 
 //delete student
 const deleteStudent = async (id: string): Promise<IStudent | null> => {
-  const result = await Student.findByIdAndDelete(id)
+  const result = await Student.findOneAndDelete({ id })
     .populate('academicSemester')
     .populate('academicDepartment')
     .populate('academicFaculty');
