@@ -14,7 +14,8 @@ export type IUser = {
   id: string;
   role: string;
   password: string;
-  needsPasswordChange: true | false;
+  needsPasswordChange: boolean;
+  passwordChangedAt?: Date;
   student?: Types.ObjectId | IStudent;
   faculty?: Types.ObjectId | IFaculty;
   admin?: Types.ObjectId | IAdmin;
@@ -31,9 +32,6 @@ export type UserModel = {
     savePassword: string
   ): Promise<boolean>;
 } & Model<IUser>;
-
-
-
 
 //User Authentication types with instance method
 
